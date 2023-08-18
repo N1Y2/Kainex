@@ -1,0 +1,483 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Noto+Sans+JP:wght@700&family=Oswald&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Convergence&family=Lilita+One&family=Noto+Sans+JP:wght@700&family=Oswald&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Convergence&family=Inter:wght@500&family=Lilita+One&family=Noto+Sans+JP:wght@700&family=Open+Sans:wght@500&family=Oswald&family=Rubik&display=swap');
+
+.header {
+    background-color: #ffffff;
+}
+
+.logo-desktop {
+    width: 25%;
+    height: 30px;
+}
+
+.header-buttoms {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttom-header {
+    text-align: right;
+}
+
+.buttoms-header {
+    border: none;
+    background: none;
+}
+
+.buttoms-header img {
+    width: 24px;
+    height: 24px;
+}
+
+.bg-custom-header {
+    background-color: #011C60;
+}
+
+.nav-link {
+    color: #ffffff !important;
+    font-size: 16px;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+#background-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), 
+    url("../images/banner.jpg") ;
+    height: 490px;
+    background-size: cover;
+    background-position: center;
+    padding: 130px 250px;
+    margin-bottom: 15px;
+}
+
+#background-image h1 {
+    margin: 0px;
+    color: #ffffff;
+    font-family: "lilita One" , cursive;
+    text-align: center;
+}
+
+#background-image h4 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0px;
+    color: #ffffff;
+    font-family: "Convergence" , sans-serif;
+    text-align: center;
+}
+
+.background-section {
+    background-color: #D8E3F2;
+}
+
+.tittle-compra {
+    text-align: center;
+}
+
+.tittle-compra span {
+    font-size: 40px;
+    padding: 10px;
+    border: 1px solid;
+    text-align: center;
+    color: #011C60;
+    font-family: "Lilita One" , cursive;
+}
+
+.image {
+    text-align: center;
+    display: inline table;
+}
+
+.image img {
+    width: 50%;
+    height: 50%;
+    border: 2px solid #011C60;
+}
+
+.image p {
+    margin: 0px;
+    padding-top: 15px;
+    padding-bottom: 48px;
+    color: #011C60;
+    font-weight: bold;
+    font-family: "Convergence" , sans-serif;
+}
+
+.background-section-two {
+    background-color: #CFD1E1;
+}
+
+.description-two h1 {
+    font-family: "Lilita One" , cursive;
+    text-align: left;
+    font-size: 40px;
+    color: #011C60;
+}
+
+.description-two p {
+    font-family: "Convergence" , sans-serif;
+}
+
+.description-buttons {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.background-section-three {
+    background-color: #D8E3F2;
+}
+
+.tittle-shooping {
+    text-align: center;
+    padding: 0px; 
+}
+
+.tittle-shooping span {
+    padding: 10px;
+    border: 2px solid #011C60;
+    text-align: center;
+    color: #011C60;
+    font-size: 40px;
+    font-family: 'Lilita One', cursive;
+}
+
+.btn-primary {
+    border: solid #011C60;
+    background-color: #011C60;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+}
+
+.description-card-two {
+    display: inline-flex;
+    justify-content: center;
+}
+
+.card {
+    border: 2px solid #011C60;
+}
+
+.card-body {
+    display: grid;
+    align-content: space-between;
+}
+
+.card h5 {
+    font-family: 'Lilita One', cursive;
+    font-size: 22px;
+    color: #011C60;
+}
+
+.card p {
+    font-size: 15px;
+    font-family: "Convergence" , sans-serif;
+}
+
+.card .card-price {
+    text-align: center;
+    font-weight: bold;
+    font-family: "Convergence" , sans-serif;
+    font-size:28px;
+    color : #CA0C0C;
+}
+.card .btn {
+    display: block;
+}
+
+.card .cart {
+    width: 40px;
+    height: 40px;
+    padding-right: 10px;
+}
+
+.background-form {
+    background-color: #CFD1E1;
+}
+
+.content-form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #CFD1E1;
+}
+.content-form .description-form {
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.description-form .form-control {
+    background-color: #ffffff;
+    font-family: "Convergence" , sans-serif; 
+}
+
+.tittle-form h4 {
+    text-align: center;
+    font-family: 'Lilita One', cursive;
+    font-size: 40px;
+    color: #011C60;
+}
+
+.background-footer {
+    background-color: #011C60; 
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.footer .description-footer h5 {
+    color: #ffffff;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #ffffff;
+    margin: 0px;
+    font-family: 'Lilita One', cursive;
+
+}
+
+.footer-logo {
+    height:160px;
+    width: 100%;
+}
+
+.description-footer ul {
+    list-style-type: none;
+    margin: 0px;
+    padding-top: 20px;
+    padding-left: 0px;
+}
+
+.description-footer ul li {
+    margin-top: 10px;
+}
+
+.description-footer ul li a {
+    text-decoration: none;
+    font-family: "Convergence" , sans-serif;    color: #ffffff; 
+}
+
+.footer .description-footer .icon-red {
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.footer .description-footer .icon-footer {
+    text-align: center;
+}
+
+.paragraph-footer {
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #ffffff;
+    margin-top: 48px;
+}
+
+.paragraph-footer .description-footer-two p {
+    text-align: center;
+    color: #ffffff;
+    margin: 0px;
+    padding: 30px;
+}
+
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .logo-desktop {
+    width: 40%; 
+    height: 30px;
+}
+.buttom-header {
+    display: none;
+}
+
+.header-buttoms {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#background-image {
+    height:200px;
+}
+#background-image h1 {
+    display: none;
+}
+
+#background-image h4 {
+    display: none;
+}
+
+.description-buttons .btn-primary {
+    display: none;
+}
+
+.buttoms-header {
+    display: block;
+    margin: 10px auto;
+}
+
+.tittle-compra {
+    padding: 20px;
+}
+
+.tittle-compra span {
+    font-size: 20px;
+}
+
+.video-section video {
+    display: none;
+}
+
+.col-md-12 .description-two h1 {
+    display:flex;
+    justify-content: center;
+}
+
+.col-md-12 .description-two p {
+    display:flex;
+    justify-content: center;
+}
+
+.tablet .image {
+    flex-basis: 50%;
+    max-width: 50%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.tablet img {
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.tablet p {
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.background-section-two .video-section {
+    display: none
+}
+
+.description-card {
+    display: flex;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.description-card p {
+    text-align: left;
+}
+
+.background-section-three .little-shooping span {
+    font-size: 20px;
+}
+
+.description-card-two {
+    margin-bottom: 20px;
+}
+
+.description-card-two .card {
+    width: 100%;
+    max-width: 300px; 
+    margin: 0 auto; 
+}
+
+.background-image-two .background {
+    display: none;
+}
+.background-form .form {
+    display: none;
+}
+
+.content-form {
+    text-align: center;
+    display: contents;
+}
+
+.content-form .description-form {
+    display: grid;
+    margin-left: 48px;
+}
+
+.tittle-form {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.footer .description-footer .footer-logo {
+    width: 60px;
+    height: 50px;
+}
+
+.background-footer .paragraph-footer {
+    display: none;
+}
+
+.footer .description-footer h5 {
+    font-size: 12px;
+}
+
+.footer .description-footer ul li a {
+    font-size: 11px;
+}
+.icon-red a {
+    width: 16px;
+    height: 16px;
+} 
+
+.footer .description-footer .footer_logo {
+    width: 50px;
+    height:60px
+}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .logo-desktop {
+        width: 50%; 
+        height: auto; 
+    }
+    
+    .col-md.6 .buttoms.header{
+        display: none;
+    }
+
+    .buttom-header {
+        text-align: center;
+    }
+    
+    .buttoms-header {
+        display: block;
+        margin: 10px auto;
+    }
+
+    .nav-link {
+    font-size: 14px; 
+    margin: 10px 15px; 
+    }
+
+    .description-two h1 {
+        font-size: 30px; 
+    }
+    
+    .card h5 {
+        font-size: 18px
+    }
+    
+    .card .card-price {
+        font-size: 24px; 
+    }
+    
+    .description-form .form-control {
+        font-size: 14px;
+    }
+}
